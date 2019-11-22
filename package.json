@@ -1,0 +1,24 @@
+{
+  "name": "@algil/media-player-ts",
+  "version": "1.0.0",
+  "description": "A plugable media player manager",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algil/media-player-ts.git"
+  },
+  "keywords": [],
+  "author": "Antonio Gil <antonioluisgil@gmail.com> (https://antonioluisgil.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algil/media-player-ts/issues"
+  },
+  "homepage": "https://github.com/algil/media-player-ts#readme",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}

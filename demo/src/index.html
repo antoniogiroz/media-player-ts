@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MediaPlayer demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    p {
+      font-size: 1.2rem;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>MediaPlayer demo</h1>
+    <p>A plugable media player</p>
+  </header>
+
+  <main class="container">
+    <video class="movie" controls>
+      <source src="./video-demo.mp4" />
+    </video>
+
+    <button id="play">Play / Pause</button>
+    <button id="mute">Mute / Unmute</button>
+
+  </main>
+
+  <div class="comments">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida quis nisi ac porttitor. Orci varius natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum
+      primis
+      in faucibus. Nulla in gravida turpis. Vestibulum orci nisi, commodo at lacinia vitae, pulvinar et nisl.
+      Pellentesque
+      id ante nec ex consequat porttitor. Aenean condimentum sollicitudin diam, eu pharetra dui fringilla et. Nunc vitae
+      dui sed odio condimentum elementum in at lorem. Aliquam non volutpat est. Nunc nec erat eget erat egestas
+      facilisis.
+      Ut id nisl in felis ullamcorper auctor. Aenean et diam sit amet felis scelerisque lacinia vel sed mauris. Ut a
+      ligula vestibulum, porta lacus vel, facilisis turpis. Phasellus vel maximus nisi. Nulla posuere sagittis dapibus.
+      Fusce fermentum mauris in mauris varius dictum.
+    </p>
+
+    <p>
+      Nulla pellentesque nisi eget mi tristique dignissim. Sed faucibus sapien est, eget iaculis odio suscipit et. Sed
+      aliquet erat non ante pulvinar, id vestibulum arcu placerat. Nullam fringilla, felis et aliquam varius, ligula
+      risus
+      maximus quam, venenatis porta nulla lectus non diam. Etiam rhoncus fringilla urna ut lacinia. Maecenas bibendum
+      tempor tempor. Sed metus ex, consectetur mattis urna ut, tincidunt blandit lorem. Suspendisse rhoncus, tellus vel
+      cursus vestibulum, ex urna aliquet velit, in sollicitudin mi odio at orci. Quisque quis lacus ut lorem convallis
+      pretium. Donec dolor tellus, tincidunt non sagittis vel, eleifend sit amet tellus. Sed in ipsum sit amet sem
+      maximus
+      accumsan sit amet nec ligula.
+    </p>
+
+    <p>
+      Nunc commodo ligula ac viverra viverra. Sed ac ultrices massa. Nulla facilisi. Nullam sem est, efficitur ultricies
+      neque nec, lacinia aliquet lectus. Aliquam tempus, ante eget fermentum tincidunt, nisi mauris sollicitudin velit,
+      eget venenatis diam velit vitae mauris. Vivamus euismod, nibh sed consectetur ultricies, velit magna lacinia
+      libero,
+      a feugiat tortor ligula at velit. In sit amet enim at risus vestibulum pellentesque sit amet vel urna. Sed sit
+      amet
+      risus et augue ultrices eleifend eu quis eros. Duis vestibulum tortor quam. Vivamus in orci neque. Ut eu sem elit.
+      Nulla condimentum ligula mattis tristique bibendum.
+    </p>
+
+    <p>
+      Quisque nec velit sit amet dui pellentesque sollicitudin nec ullamcorper eros. In hac habitasse platea dictumst.
+      In
+      vel massa ac mauris dictum molestie non at ipsum. Curabitur vitae gravida risus, at sollicitudin ligula. Nullam
+      urna
+      nunc, feugiat at laoreet at, molestie non elit. Quisque fringilla mauris eget ipsum ultricies sodales. Cras
+      accumsan
+      lacinia diam in consequat. In auctor, leo quis congue bibendum, quam risus mollis neque, at placerat risus mi sed
+      turpis. Fusce ex tellus, blandit sed vulputate ut, dapibus id sapien. Phasellus nec leo accumsan, semper ex ut,
+      dictum augue. Maecenas et dui in nisl volutpat scelerisque eu in nulla. Cras ac tortor nunc.
+    </p>
+
+    <p>
+      Aenean eget mauris eget purus condimentum condimentum. In vel facilisis nunc. Phasellus accumsan, purus sit amet
+      lacinia lacinia, ex ligula tempus lacus, at gravida magna magna in lectus. Proin quis tortor efficitur, tempor
+      orci
+      a, feugiat massa. Donec sit amet justo id odio pulvinar pellentesque in eget nunc. Ut at nulla odio. Vivamus dolor
+      mauris, ultrices ac malesuada eu, convallis non nulla. Nam pellentesque a libero id gravida. Integer a auctor
+      turpis. Pellentesque mauris nunc, porttitor at tempor sed, tempor ac odio. Aliquam urna lectus, egestas eget
+      dictum
+      sed, mollis vitae dui. Nulla cursus fringilla consectetur.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida quis nisi ac porttitor. Orci varius natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum
+      primis
+      in faucibus. Nulla in gravida turpis. Vestibulum orci nisi, commodo at lacinia vitae, pulvinar et nisl.
+      Pellentesque
+      id ante nec ex consequat porttitor. Aenean condimentum sollicitudin diam, eu pharetra dui fringilla et. Nunc vitae
+      dui sed odio condimentum elementum in at lorem. Aliquam non volutpat est. Nunc nec erat eget erat egestas
+      facilisis.
+      Ut id nisl in felis ullamcorper auctor. Aenean et diam sit amet felis scelerisque lacinia vel sed mauris. Ut a
+      ligula vestibulum, porta lacus vel, facilisis turpis. Phasellus vel maximus nisi. Nulla posuere sagittis dapibus.
+      Fusce fermentum mauris in mauris varius dictum.
+    </p>
+
+    <p>
+      Nulla pellentesque nisi eget mi tristique dignissim. Sed faucibus sapien est, eget iaculis odio suscipit et. Sed
+      aliquet erat non ante pulvinar, id vestibulum arcu placerat. Nullam fringilla, felis et aliquam varius, ligula
+      risus
+      maximus quam, venenatis porta nulla lectus non diam. Etiam rhoncus fringilla urna ut lacinia. Maecenas bibendum
+      tempor tempor. Sed metus ex, consectetur mattis urna ut, tincidunt blandit lorem. Suspendisse rhoncus, tellus vel
+      cursus vestibulum, ex urna aliquet velit, in sollicitudin mi odio at orci. Quisque quis lacus ut lorem convallis
+      pretium. Donec dolor tellus, tincidunt non sagittis vel, eleifend sit amet tellus. Sed in ipsum sit amet sem
+      maximus
+      accumsan sit amet nec ligula.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida quis nisi ac porttitor. Orci varius natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum
+      primis
+      in faucibus. Nulla in gravida turpis. Vestibulum orci nisi, commodo at lacinia vitae, pulvinar et nisl.
+      Pellentesque
+      id ante nec ex consequat porttitor. Aenean condimentum sollicitudin diam, eu pharetra dui fringilla et. Nunc vitae
+      dui sed odio condimentum elementum in at lorem. Aliquam non volutpat est. Nunc nec erat eget erat egestas
+      facilisis.
+      Ut id nisl in felis ullamcorper auctor. Aenean et diam sit amet felis scelerisque lacinia vel sed mauris. Ut a
+      ligula vestibulum, porta lacus vel, facilisis turpis. Phasellus vel maximus nisi. Nulla posuere sagittis dapibus.
+      Fusce fermentum mauris in mauris varius dictum.
+    </p>
+
+    <p>
+      Nulla pellentesque nisi eget mi tristique dignissim. Sed faucibus sapien est, eget iaculis odio suscipit et. Sed
+      aliquet erat non ante pulvinar, id vestibulum arcu placerat. Nullam fringilla, felis et aliquam varius, ligula
+      risus
+      maximus quam, venenatis porta nulla lectus non diam. Etiam rhoncus fringilla urna ut lacinia. Maecenas bibendum
+      tempor tempor. Sed metus ex, consectetur mattis urna ut, tincidunt blandit lorem. Suspendisse rhoncus, tellus vel
+      cursus vestibulum, ex urna aliquet velit, in sollicitudin mi odio at orci. Quisque quis lacus ut lorem convallis
+      pretium. Donec dolor tellus, tincidunt non sagittis vel, eleifend sit amet tellus. Sed in ipsum sit amet sem
+      maximus
+      accumsan sit amet nec ligula.
+    </p>
+  </div>
+
+  <script type="module" src="../../src/index.ts"></script>
+  <script type="module" src="./index.ts"></script>
+</body>
+
+</html>
